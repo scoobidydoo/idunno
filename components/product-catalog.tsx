@@ -23,14 +23,16 @@ const products = [
     description: "Soft, fresh cottage cheese made daily — perfect for your favorite home recipes.",
   },
   {
-    name: "Milk Peda",
+    name: "Milk Peda & Sweets",
     image: "/images/peda.png",
-    description: "Soft, melt-in-the-mouth milk peda made fresh — a sweet treat for every occasion.",
+    description: "Soft, melt-in-the-mouth milk peda and traditional sweets made fresh — a treat for every occasion.",
+    comingSoon: true,
   },
   {
     name: "Grocery Essentials",
     image: "/images/grocery.png",
-    description: "Everyday grocery staples — rice, pulses, spices and more, available right at our store.",
+    description: "Everyday grocery staples — rice, pulses, spices and more, all under one trusted roof.",
+    comingSoon: true,
   },
 ]
 
@@ -50,7 +52,7 @@ export function ProductCatalog() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <Card key={product.name} className="overflow-hidden border-border/60 pt-0">
-              <div className="aspect-square overflow-hidden bg-muted">
+              <div className="relative aspect-square overflow-hidden bg-muted">
                 <Image
                   src={product.image || "/placeholder.svg"}
                   alt={product.name}
@@ -58,6 +60,11 @@ export function ProductCatalog() {
                   height={400}
                   className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                 />
+                {product.comingSoon ? (
+                  <span className="absolute right-3 top-3 rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-foreground shadow-sm">
+                    Coming Soon
+                  </span>
+                ) : null}
               </div>
               <CardContent className="flex flex-col gap-2 px-5">
                 <h3 className="text-lg font-semibold text-card-foreground">{product.name}</h3>
