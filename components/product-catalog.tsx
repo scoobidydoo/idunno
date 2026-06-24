@@ -5,7 +5,7 @@ const products = [
   {
     name: "Fresh Milk (Dudh)",
     image: "/images/whole-milk.png",
-    description: "Rich, creamy full-cream milk delivered fresh from farm to doorstep each morning.",
+    description: "Rich, creamy full-cream milk, fresh from the farm every morning.",
   },
   {
     name: "Thick Creamy Dahi",

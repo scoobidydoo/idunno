@@ -1,4 +1,4 @@
-import { Heart, Truck, Users } from "lucide-react"
+import { Heart, Sparkles, Users } from "lucide-react"
 
 const points = [
   {
@@ -12,9 +12,9 @@ const points = [
     description: "Every purchase directly supports the hardworking farmers in our region.",
   },
   {
-    icon: Truck,
-    title: "Daily Fresh Delivery",
-    description: "From the farm to your home within hours — never frozen, never stale.",
+    icon: Sparkles,
+    title: "Made Fresh Every Day",
+    description: "Prepared fresh daily — never frozen, never stale. Just call or message to place your order.",
   },
 ]
 

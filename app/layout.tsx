@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Awadh Dudh Dairy | Pure, Fresh Milk, Sweets & Grocery',
   description:
-    'Awadh Dudh Dairy delivers pure, fresh dairy — milk (dudh), dahi, ghee, paneer and peda — plus everyday grocery items. Order support available. Call or WhatsApp us today.',
+    'Awadh Dudh Dairy offers pure, fresh dairy — milk (dudh), dahi, ghee, paneer and peda — plus everyday grocery items. Order support available. Call or WhatsApp us today.',
   generator: 'v0.app',
   icons: {
     icon: [

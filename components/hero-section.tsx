@@ -12,7 +12,7 @@ export function HeroSection() {
             <span className="text-accent">Farm fresh dairy, sweets &amp; daily grocery</span>
           </span>
           <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
-            Pure, Fresh Dairy Delivered to Your Family
+            Pure, Fresh Dairy for Your Family
           </h1>
           <p className="max-w-md text-pretty leading-relaxed text-muted-foreground">
             {site.name}{" "}brings you fresh milk, dahi, ghee, paneer and peda made the traditional way —
