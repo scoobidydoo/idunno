@@ -7,7 +7,7 @@ export const site = {
   phoneDisplay: "+91 91517 98362",
   address:
     "Amrapali Yojana, Awas Vikas, in front of Trinity International Public School (TIPS E-5), India",
-  whatsappMessage: "Hello Awadh Dudh Dairy, I would like to place an order.",
+  whatsappMessage: "Hello Awadh Dudh Dairy, I would like to know more about your products.",
 }
 
 export const telHref = `tel:+${site.phoneRaw}`
