@@ -46,9 +46,7 @@ export function ContactSection() {
               <div className="flex flex-col gap-1">
                 <h3 className="font-semibold text-card-foreground">Shop Hours</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  Monday – Saturday: 6:00 AM – 9:00 PM
-                  <br />
-                  Sunday: 6:00 AM – 1:00 PM
+                  All days open- 10 A.M. to 10 P.M.
                 </p>
               </div>
             </div>
