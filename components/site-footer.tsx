@@ -22,8 +22,7 @@ export function SiteFooter() {
                 <Clock className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
                 <div>
                   <p className="font-semibold text-background">Shop Hours</p>
-                  <p>Monday – Saturday: 6:00 AM – 9:00 PM</p>
-                  <p>Sunday: 6:00 AM – 1:00 PM</p>
+                  <p>Monday – Saturday: 10:00 AM – 10:00 PM</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
