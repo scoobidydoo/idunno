@@ -28,11 +28,12 @@ export function AboutSection() {
           </h2>
           <p className="text-pretty leading-relaxed text-muted-foreground">
             Awadh Dudh Dairy began with a simple promise — to deliver dairy as pure and fresh as nature intended. For
-            years, families across our community have trusted us for milk and dairy products that nourish and delight.
+            years, families across our neighbourhood have trusted us for milk, dahi, ghee, paneer, fresh sweets, and
+            everyday grocery essentials.
           </p>
           <p className="text-pretty leading-relaxed text-muted-foreground">
             We work hand in hand with local farms, uphold strict hygiene standards, and treat every order as if it were
-            for our own family. Your health and trust are at the heart of everything we do.
+            for our own family. Just call or message us — our order support team is always ready to help.
           </p>
         </div>
 
